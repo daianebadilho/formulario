@@ -1,11 +1,16 @@
 body {
     background-color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    display:block;
-    align-items:center;
-    height:50vh;
-    margin:20;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px
+
+ 
   }
 
 
-
+  .formulario label {
+    margin-bottom: 5px;
+  
+.checkbox text {
+apperance: none;
+border-radius:50%  
+}
