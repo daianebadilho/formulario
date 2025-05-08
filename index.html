@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="estilos.css"
 </head>
 <body>
     <h1>Formulário de Cotação Online de Seguro Gerais</h1>
@@ -43,7 +44,7 @@
         <label><input type="checkbox" name="checkbox9">Seguro de responsabilidade</label>
         <label><input type="checkbox" name="checkbox10">Seguro de criança</label>
         <p>Quando o seu seguro expira?</p>
-        <input type="text" name="data" placeholder="DD/MM/AAAA"
+        <input type="text" name="data" placeholder="DD/MM/AAAA">
         <br>
         <p>O quanto você está disposto a mudar o seu de seguro?</p>
         <label><input type="checkbox" name="checkbox11">Extremamente disposto</label>
@@ -52,9 +53,13 @@
         <label><input type="checkbox" name="checkbox14">Pouco disposto</label>
         <label><input type="checkbox" name="checkbox15">Não estou disposto</label>
         <p>O quanto você está disposto a gastar em um seguro mensal?</p>
-        <input type="text" name="valor" placeholder="BRL 0.00"
-        <button>Obtenha sua cotação de seguro</button>
+        <input type="text" name="valor" placeholder="BRL 0.00">
+        <br>
+        <br>
+        <form action="/action_page.php" method="post">
+            <button type="submit">Obtenha sua cotação de seguro</button>
 
+        </form>
 
 
 
