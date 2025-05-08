@@ -1,16 +1,6 @@
-body {
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px
+.conteudo p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px
 
- 
-  }
-
-
-  .formulario label {
-    margin-bottom: 5px;
-  
-.checkbox text {
-apperance: none;
-border-radius:50%  
 }
