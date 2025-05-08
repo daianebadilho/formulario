@@ -6,11 +6,20 @@
 }
 
 #button {
-
+ margin-top: auto; /* empurra o botão para o final */
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 
 
 }
 
-#button: hover {
-background-color: #000000;
+#button:hover {
+background-color: #333333;
+
 }
+
